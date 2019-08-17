@@ -11,3 +11,8 @@ approximate_pi <- function(darts=500){
   pi<- 4*length(in_circle)/darts
   return(pi)
 }
+
+approximate_pi(darts=1000)
+approximate_pi(darts = 10000)
+#added some tests, looks good!
+# -Justin. 
