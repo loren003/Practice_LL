@@ -12,7 +12,7 @@ approximate_pi <- function(darts=500){
   return(pi)
 }
 
-approximate_pi(darts=1001)
+approximate_pi(darts=1002)
 approximate_pi(darts = 10000)
 #added some tests, looks good!
 # -Justin. 
